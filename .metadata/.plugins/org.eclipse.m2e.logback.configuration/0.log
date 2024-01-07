@@ -1,0 +1,404 @@
+2022-10-09 13:46:50,411 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-09 13:47:04,856 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-09 13:47:05,788 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/main/java
+2022-10-09 13:47:05,789 [Worker-12: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/test/java
+2022-10-09 13:47:06,072 [Worker-12: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2022-10-09 13:47:08,517 [Worker-10: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/asm/asm/3.3.1/asm-3.3.1-javadoc.jar
+2022-10-09 13:47:08,523 [Worker-10: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for asm:asm:3.3.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact asm:asm:jar:javadoc:3.3.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:828) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:117) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:796) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:773) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:311) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:297) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:255) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:223) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:152) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:152) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.13.0.v20220512-1935.jar:na]
+2022-10-09 13:47:10,271 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 13:47:10,271 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 13:47:10,274 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 13:47:10,274 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 13:47:39,518 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-10-09 13:47:44,414 [Worker-16: Launching SeleniumFrameworkProject7] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SeleniumAutomationMaven\SeleniumFrameworkProject7
+2022-10-09 13:47:44,415 [Worker-16: Launching SeleniumFrameworkProject7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B goal
+2022-10-09 13:48:52,473 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-09 13:48:53,070 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 13:48:53,071 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 13:48:53,073 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 13:48:53,073 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 13:49:00,604 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-10-09 13:49:05,605 [Worker-0: Launching SeleniumFrameworkProject7 (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SeleniumAutomationMaven\SeleniumFrameworkProject7
+2022-10-09 13:49:05,606 [Worker-0: Launching SeleniumFrameworkProject7 (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B goal
+2022-10-09 13:50:42,883 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-09 13:50:43,410 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 13:50:43,411 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 13:50:43,414 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 13:50:43,414 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 13:50:50,527 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-10-09 13:50:50,730 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-09 13:50:51,180 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/main/java
+2022-10-09 13:50:51,181 [Worker-22: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/test/java
+2022-10-09 13:50:51,410 [Worker-22: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-10-09 13:50:52,084 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 13:50:52,084 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 13:50:52,088 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 13:50:52,088 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 13:50:56,784 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-10-09 13:51:05,076 [Worker-22: Launching SeleniumFrameworkProject7 (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SeleniumAutomationMaven\SeleniumFrameworkProject7
+2022-10-09 13:51:05,076 [Worker-22: Launching SeleniumFrameworkProject7 (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B goal
+2022-10-09 13:51:43,125 [Worker-24: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-09 13:51:43,538 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 13:51:43,538 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 13:51:43,540 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 13:51:43,541 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 13:51:52,858 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-10-09 13:51:54,810 [Worker-23: Launching SeleniumFrameworkProject7 (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SeleniumAutomationMaven\SeleniumFrameworkProject7
+2022-10-09 13:51:54,810 [Worker-23: Launching SeleniumFrameworkProject7 (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2022-10-09 13:52:04,667 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-10-09 13:52:08,806 [Worker-21: Launching SeleniumFrameworkProject7 (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SeleniumAutomationMaven\SeleniumFrameworkProject7
+2022-10-09 13:52:08,806 [Worker-21: Launching SeleniumFrameworkProject7 (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B goal
+2022-10-09 14:46:48,372 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-09 14:47:19,362 [Worker-4: Importing Maven projects] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Project SeleniumFrameworkProject7 already exists
+2022-10-09 14:47:19,371 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2022-10-09 14:47:54,317 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: RahulShettyAcademy:RahulShettyAcademy:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\RahulShettyAcademy\pom.xml.
+2022-10-09 14:47:55,963 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RahulShettyAcademy/src
+2022-10-09 14:47:55,965 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /RahulShettyAcademy/src/test/java because it overlaps with /RahulShettyAcademy/src
+2022-10-09 14:47:56,057 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 9 sec
+2022-10-09 14:47:57,303 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-09 14:47:57,304 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\RahulShettyAcademy\src\main\resources
+2022-10-09 14:47:57,307 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-10-09 14:47:57,308 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\RahulShettyAcademy\src\test\resources
+2022-10-09 14:57:27,518 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-09 14:57:32,426 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 14:57:32,427 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 14:57:32,435 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 14:57:32,436 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 14:58:16,375 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rahulshettyacademy:SeleniumFrameworkDesign:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\pom.xml.
+2022-10-09 14:58:20,829 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkDesign/src/main/java
+2022-10-09 14:58:20,832 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkDesign/src/test/java
+2022-10-09 14:58:21,124 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2022-10-09 14:58:22,237 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 14:58:22,238 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\main\resources
+2022-10-09 14:58:22,240 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 14:58:22,240 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\test\resources
+2022-10-09 16:11:51,282 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-10-09 16:12:50,093 [Worker-1: Launching SeleniumFrameworkDesign] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SeleniumAutomationMaven\SeleniumFrameworkDesign
+2022-10-09 16:12:50,094 [Worker-1: Launching SeleniumFrameworkDesign] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B goal
+2022-10-09 16:24:41,260 [Worker-25: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkDesign] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SeleniumAutomationMaven\SeleniumFrameworkDesign
+2022-10-09 16:24:41,260 [Worker-25: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkDesign] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2022-10-09 16:24:45,293 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:24:45,294 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\main\resources
+2022-10-09 16:24:45,296 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:24:45,296 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\test\resources
+2022-10-09 16:46:08,342 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:46:08,343 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\main\resources
+2022-10-09 16:46:08,346 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:46:08,347 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\test\resources
+2022-10-09 16:46:08,752 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:46:08,752 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 16:46:08,754 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:46:08,754 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 16:46:25,979 [Worker-28: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkProject7] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SeleniumAutomationMaven\SeleniumFrameworkProject7
+2022-10-09 16:46:25,979 [Worker-28: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkProject7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2022-10-09 16:48:03,430 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:48:03,431 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 16:48:03,432 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:48:03,433 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 16:49:28,984 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-09 16:49:31,948 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:49:31,948 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 16:49:31,950 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:49:31,951 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 16:49:35,982 [Worker-26: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkProject7] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SeleniumAutomationMaven\SeleniumFrameworkProject7
+2022-10-09 16:49:35,982 [Worker-26: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkProject7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2022-10-09 16:50:55,053 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:50:55,053 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 16:50:55,053 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:50:55,053 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 16:52:53,264 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:52:53,264 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\main\resources
+2022-10-09 16:52:53,266 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:52:53,266 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\test\resources
+2022-10-09 16:52:53,302 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:52:53,302 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 16:52:53,304 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:52:53,304 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 16:52:59,275 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:52:59,275 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 16:52:59,277 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:52:59,277 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 16:53:07,890 [Worker-32: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkProject7] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SeleniumAutomationMaven\SeleniumFrameworkProject7
+2022-10-09 16:53:07,891 [Worker-32: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkProject7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2022-10-09 16:54:39,812 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:54:39,812 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 16:54:39,814 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 16:54:39,814 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:04:37,652 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-10-09 17:04:40,102 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rahulshettyacademy:SeleniumFrameworkDesign:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\pom.xml.
+2022-10-09 17:04:41,897 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-09 17:04:48,488 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkDesign/src/main/java
+2022-10-09 17:04:48,489 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkDesign/src/test/java
+2022-10-09 17:04:48,615 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/main/java
+2022-10-09 17:04:48,615 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/test/java
+2022-10-09 17:04:48,831 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 11 sec
+2022-10-09 17:04:50,075 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:04:50,076 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\main\resources
+2022-10-09 17:04:50,080 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:04:50,080 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\test\resources
+2022-10-09 17:04:50,565 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:04:50,566 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:04:50,568 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:04:50,569 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:05:09,839 [Worker-36: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkProject7] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SeleniumAutomationMaven\SeleniumFrameworkProject7
+2022-10-09 17:05:09,841 [Worker-36: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkProject7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2022-10-09 17:07:14,526 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:07:14,526 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:07:14,527 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:07:14,528 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:07:37,603 [Worker-41: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkDesign] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SeleniumAutomationMaven\SeleniumFrameworkDesign
+2022-10-09 17:07:37,603 [Worker-41: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkDesign] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2022-10-09 17:09:03,573 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:09:03,573 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\main\resources
+2022-10-09 17:09:03,589 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:09:03,589 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\test\resources
+2022-10-09 17:26:06,811 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-10-09 17:26:07,563 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: rahulshettyacademy:SeleniumFrameworkDesign:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\pom.xml.
+2022-10-09 17:26:08,309 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-09 17:26:09,758 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkDesign/src/main/java
+2022-10-09 17:26:09,760 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkDesign/src/test/java
+2022-10-09 17:26:10,021 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/main/java
+2022-10-09 17:26:10,021 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/test/java
+2022-10-09 17:26:10,440 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-10-09 17:26:11,470 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:26:11,471 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\main\resources
+2022-10-09 17:26:11,474 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:26:11,475 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\test\resources
+2022-10-09 17:26:12,462 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:26:12,463 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:26:12,467 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:26:12,468 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:26:56,289 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:26:56,290 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\main\resources
+2022-10-09 17:26:56,292 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:26:56,293 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\test\resources
+2022-10-09 17:26:56,555 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:26:56,556 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:26:56,557 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:26:56,558 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:27:02,029 [Worker-44: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkDesign] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SeleniumAutomationMaven\SeleniumFrameworkDesign
+2022-10-09 17:27:02,029 [Worker-44: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkDesign] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2022-10-09 17:28:08,740 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:28:08,740 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\main\resources
+2022-10-09 17:28:08,742 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:28:08,742 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\test\resources
+2022-10-09 17:28:18,304 [Worker-40: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkProject7] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SeleniumAutomationMaven\SeleniumFrameworkProject7
+2022-10-09 17:28:18,304 [Worker-40: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkProject7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2022-10-09 17:29:16,273 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:29:16,274 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:29:16,277 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:29:16,277 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:30:47,944 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:30:47,944 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:30:47,947 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:30:47,947 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:31:16,629 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-10-09 17:31:16,703 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-09 17:31:17,266 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/main/java
+2022-10-09 17:31:17,266 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/test/java
+2022-10-09 17:31:17,611 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-10-09 17:31:18,328 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:31:18,328 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:31:18,331 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:31:18,332 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:32:19,109 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:32:19,109 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:32:19,111 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:32:19,112 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:33:05,386 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-10-09 17:33:05,483 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-09 17:33:06,134 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/main/java
+2022-10-09 17:33:06,135 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/test/java
+2022-10-09 17:33:06,635 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-10-09 17:33:07,537 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:33:07,537 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:33:07,540 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:33:07,541 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:34:08,151 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:34:08,152 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:34:08,155 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:34:08,156 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:34:13,982 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-10-09 17:34:14,071 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-09 17:34:14,811 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/main/java
+2022-10-09 17:34:14,813 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/test/java
+2022-10-09 17:34:15,298 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-10-09 17:34:15,967 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:34:15,967 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:34:15,969 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:34:15,969 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:34:45,693 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:34:45,693 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:34:45,695 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:34:45,695 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:35:04,742 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:35:04,743 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:35:04,745 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:35:04,745 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:35:22,249 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-10-09 17:35:22,327 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-09 17:35:22,901 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/main/java
+2022-10-09 17:35:22,902 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/test/java
+2022-10-09 17:35:23,303 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2022-10-09 17:35:23,913 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:35:23,915 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:35:23,917 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:35:23,918 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:35:33,749 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-10-09 17:35:33,831 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-09 17:35:34,380 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/main/java
+2022-10-09 17:35:34,380 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/test/java
+2022-10-09 17:35:34,621 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-10-09 17:35:35,187 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:35:35,187 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:35:35,189 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:35:35,189 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:36:55,712 [Worker-51: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-09 17:36:56,180 [Worker-51: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/main/java
+2022-10-09 17:36:56,182 [Worker-51: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/test/java
+2022-10-09 17:36:56,394 [Worker-51: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2022-10-09 17:36:57,273 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:36:57,273 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:36:57,275 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:36:57,276 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 17:37:06,943 [Worker-48: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkProject7] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\SeleniumAutomationMaven\SeleniumFrameworkProject7
+2022-10-09 17:37:06,943 [Worker-48: Launching Executing test in C__SeleniumAutomationMaven_SeleniumFrameworkProject7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2022-10-09 17:38:12,962 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:38:12,963 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-09 17:38:12,964 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-09 17:38:12,964 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-09 19:58:19,356 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-10 18:37:27,786 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-10-10 18:48:27,278 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 18:48:27,282 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\main\resources
+2022-10-10 18:48:27,284 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 18:48:27,284 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\test\resources
+2022-10-10 18:48:27,641 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 18:48:27,642 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-10 18:48:27,644 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 18:48:27,644 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-10 18:49:59,517 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 18:49:59,517 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-10 18:49:59,519 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 18:49:59,520 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-10 18:50:08,684 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 18:50:08,685 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-10 18:50:08,687 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 18:50:08,688 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-10 18:50:18,828 [Worker-43: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-10-10 18:50:20,636 [Worker-43: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-10 18:50:21,590 [Worker-43: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/main/java
+2022-10-10 18:50:21,591 [Worker-43: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/test/java
+2022-10-10 18:50:21,918 [Worker-43: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-10-10 18:50:22,957 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 18:50:22,957 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-10 18:50:22,960 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 18:50:22,960 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-10 19:11:13,289 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 19:11:13,290 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-10 19:11:13,291 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 19:11:13,291 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-10 19:13:51,546 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 19:13:51,546 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-10 19:13:51,561 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 19:13:51,561 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-10 19:36:16,238 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 19:36:16,238 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-10 19:36:16,240 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 19:36:16,240 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-10 19:38:59,418 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 19:38:59,418 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-10 19:38:59,421 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 19:38:59,421 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-10 19:39:09,578 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 19:39:09,578 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-10 19:39:09,581 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 19:39:09,582 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-10 19:49:40,805 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-10 19:51:58,941 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 19:51:58,942 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-10 19:51:58,946 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 19:51:58,947 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-10 19:58:13,877 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 19:58:13,877 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-10 19:58:13,881 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-10 19:58:13,881 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-11 10:46:51,577 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-11 11:00:32,857 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 11:00:32,859 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-11 11:00:32,862 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 11:00:32,862 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-11 11:00:42,249 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-10-11 11:00:44,123 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: KamalIndustries:SeleniumFrameworkProject:0.0.1-SNAPSHOT @ C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\pom.xml.
+2022-10-11 11:00:45,149 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/main/java
+2022-10-11 11:00:45,150 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumFrameworkProject7/src/test/java
+2022-10-11 11:00:45,491 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-10-11 11:00:46,775 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 11:00:46,775 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-11 11:00:46,779 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-11 11:00:46,779 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-12 09:20:26,119 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-10-12 13:15:14,869 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-10-12 13:24:30,391 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:24:30,393 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\main\resources
+2022-10-12 13:24:30,396 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:24:30,396 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkDesign\src\test\resources
+2022-10-12 13:24:32,806 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:24:32,807 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-12 13:24:32,809 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:24:32,809 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-12 13:24:46,613 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:24:46,613 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-12 13:24:46,615 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:24:46,615 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-12 13:24:52,041 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:24:52,041 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-12 13:24:52,043 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:24:52,044 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-12 13:27:44,432 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:27:44,432 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-12 13:27:44,435 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:27:44,435 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-12 13:28:10,066 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:28:10,066 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-12 13:28:10,069 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:28:10,070 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-12 13:31:01,738 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:31:01,738 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-12 13:31:01,740 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:31:01,741 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-12 13:31:10,432 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:31:10,432 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-12 13:31:10,435 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:31:10,436 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-12 13:31:30,330 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:31:30,330 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-12 13:31:30,333 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:31:30,333 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-12 13:32:13,569 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:32:13,570 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-12 13:32:13,574 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:32:13,574 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-12 13:35:54,091 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:35:54,091 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\main\resources
+2022-10-12 13:35:54,092 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-10-12 13:35:54,092 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SeleniumAutomationMaven\SeleniumFrameworkProject7\src\test\resources
+2022-10-13 08:24:10,765 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
